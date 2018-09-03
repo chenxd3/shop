@@ -7,6 +7,9 @@
         <dependent-module archiveName="shop-manager-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shop-manager-service/shop-manager-service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="shop-manager-mapper-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shop-maneger-mapper/shop-maneger-mapper">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="shop-manager-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shop-manager-pojo/shop-manager-pojo">
             <dependency-type>uses</dependency-type>
         </dependent-module>
